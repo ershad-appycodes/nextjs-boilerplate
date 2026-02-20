@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
        <Script
-        src="https://stage.d2akzmxlg9vfc9.amplifyapp.com/icc-insights-widget.js"
+        src="https://insights.t20worldcup.com/icc-insights-widget.js"
         strategy="afterInteractive"
       />
       <body
