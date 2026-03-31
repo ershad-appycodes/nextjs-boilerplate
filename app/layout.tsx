@@ -25,14 +25,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <Script
-        src="https://stage.d2akzmxlg9vfc9.amplifyapp.com/icc-insights-widget.js"
+      <Script
+        id="nurix-widget"
+        src="https://d3udl6i7sipqjw.cloudfront.net/dev/webwidget/chat.js"
+        type="module"
+        data-api-key="dcc297b803f4724984f64736c93cfd2"
+        data-widget-id="265"
+        data-controller="nurix"
+        data-chat-btn-bottom-mobile="10px"
+        data-gateway-api-key="1234567890"
         strategy="afterInteractive"
       />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <div id="nurix-widget"></div>
       </body>
     </html>
   );
