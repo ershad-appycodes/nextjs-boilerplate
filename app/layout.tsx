@@ -29,7 +29,7 @@ export default function RootLayout({
         id="nurix-widget"
         src="https://d3udl6i7sipqjw.cloudfront.net/dev/webwidget/chat.js"
         type="module"
-        data-api-key="dcc297b803f4724984f64736c93cfd2"
+        data-api-key="dcc297b7803f4724984f64736c93cfd2"
         data-widget-id="265"
         data-controller="nurix"
         data-chat-btn-bottom-mobile="10px"
